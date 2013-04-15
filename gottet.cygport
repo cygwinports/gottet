@@ -1,6 +1,11 @@
 inherit qt4-qmake
 
-DESCRIPTION="Qt4 tetris game"
+NAME="gottet"
+VERSION=1.0.5
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="Qt tetris game"
+DESCRIPTION="A tetris clone for Qt4."
 HOMEPAGE="http://gottcode.org/gottet/"
 SRC_URI="http://gottcode.org/gottet/${P}-src.tar.bz2"
 
