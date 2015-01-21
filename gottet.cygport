@@ -1,12 +1,12 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="gottet"
-VERSION=1.0.5
+VERSION=1.0.6
 RELEASE=1
 CATEGORY="Games"
-SUMMARY="Qt tetris game"
-DESCRIPTION="A tetris clone for Qt4."
+SUMMARY="Qt falling blocks game"
+DESCRIPTION="A falling blocks game for Qt."
 HOMEPAGE="http://gottcode.org/gottet/"
-SRC_URI="http://gottcode.org/gottet/${P}-src.tar.bz2"
+SRC_URI="http://gottcode.org/gottet/gottet-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
