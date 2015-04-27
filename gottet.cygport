@@ -1,7 +1,7 @@
 inherit qt5-qmake
 
 NAME="gottet"
-VERSION=1.0.6
+VERSION=1.1.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt falling blocks game"
